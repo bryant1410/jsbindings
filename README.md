@@ -108,9 +108,9 @@ _The CocosDenshion config files could be found here: [configs/CocosDenshion](htt
 10. Add a `#define` to include your new bindings in `src/manual/jsb_config.h`. eg:
 
 ```c
-#ifndef JSB_INCLUDE_PROJECTNAME
+# ifndef JSB_INCLUDE_PROJECTNAME
 #define JSB_INCLUDE_PROJECTNAME 1
-#endif // JSB_INCLUDE_PROJECTNAME
+# endif // JSB_INCLUDE_PROJECTNAME
 ```
 
 
